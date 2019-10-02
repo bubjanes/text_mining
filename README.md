@@ -30,7 +30,11 @@ This two-layer neural network provides us with much more than our counts-basd co
 * dimensionality ```(size=300)``` the maximum available
 * downsampling of high frequency words ```(sample=6e-5)```
 * drown out the noise words ```(negative=20)``` set at maximum
+
+
 ![Latent Semantic Analysis](https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Topic_model_scheme.webm/600px-seek%3D17.6-Topic_model_scheme.webm.jpg)
+(photo of Latent Semantic Analysis from Wikipedia)
+
 
 # Clustering with k-means
 * normalized the embeddings before clustering; k-means automatically uses euclidean distance
@@ -55,4 +59,4 @@ Words: verde, marino, candidato, silva, dilma, rousseff, serra, pt, psdb, luiz, 
 >Cluster 41 - **Argentine Politics**
 Words: manuel, ex, daniel, presidente, josé, cristino, fernández, kirchner, intendente, néstor, gobernador, juan, sota, schiaretti
 
-
+Acknowledgements: Code inspired by and taken from María Florencia Alonso, Cristian Cardellino, Dani Bosch and Facu Molina. Thank you!
