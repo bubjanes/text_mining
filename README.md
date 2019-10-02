@@ -12,7 +12,7 @@ The data was taken from 1666 recent articles (4,646,557 words) from *La Voz del 
 3. eliminate numbers
 4. eliminate stopwords
 5. lowercase
-6. lemmatize                                     ![Python Programming](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/800px-Python-logo-notext.svg.png)
+6. lemmatize                                    
 
 # COOC: four-word window
 Context is a essential to meaning in human language. A **cooccurrence matrix** gives us semantic and idiomatic insight into the language by showing us which words appear together often and if any dependencies are present between words. I chose a four-word window because I wanted to get as much context as possible into my matrix.
