@@ -7,7 +7,7 @@ This notebook demonstrates standard text mining methods for unsupervised learnin
 The data was taken from 1666 recent articles (4,646,557 words) from *La Voz del Interior*, the newspaper of record in Córdoba, Argentina.
 
 # Preprocessing Pipeline with nltk
-I tried many different preprocessing configuartions before deciding on the following preprocessing pipeline. My goal with this exercise was to find distinction between clusters. In some cases, more preprocessing yeilded a more legible "beautiful" cooccurence matrix, but no distinct clusters; for example when counting all of the word frequencies and eliminating the low frequency words. High frequency words were eliminated using NLTK stopwords. 
+I tried many different preprocessing configurations before deciding on the following preprocessing pipeline. My goal with this exercise was to find distinction between clusters. In some cases, more preprocessing yielded a more legible or "beautiful" cooccurence matrix, but no distinct clusters; for example when counting all of the word frequencies and eliminating the low frequency words. High frequency words were eliminated using NLTK stopwords. 
 1. sentence tokenize
 2. word tokenize
 3. eliminate numbers
